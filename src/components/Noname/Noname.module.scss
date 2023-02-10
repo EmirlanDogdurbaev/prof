@@ -1,0 +1,32 @@
+.Noname {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+
+  border: 0.5px solid black;
+  padding: 100px 0 100px 0;
+  margin-bottom: 40px;
+
+  div {
+    width: 94%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      img {
+        margin: 10px 0;
+      }
+    }
+  }
+}

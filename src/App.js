@@ -9,7 +9,7 @@ function App() {
     <>
       <Nav/>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       
